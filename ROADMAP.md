@@ -7,29 +7,23 @@ The goal is to build the system incrementally while maintaining clarity and dire
 
 ## 🚀 Current Objective
 
-### **1. Generic Table Component (In Progress)**
+### **Generic Table Component (In Progress)**
 
-Build a reusable table component capable of adapting to any dataset passed into it.
-
-**Goals:**
-
-- Automatically render table headers based on data keys
-- Handle dynamic data shapes
-- Support sorting and filtering
-- Action buttons (update and delete)
-- Supports both numbered and unnumbered rows
-- Hover to highlight the entire row
-- ctrl+hover to highlight the column
+- Pin rows
+- Pin columns
+- Highlight a column on Ctrl + hover
+- Support both numbered and unnumbered rows
+- Provide sorting and filtering capabilities
+- Include action buttons (update and delete)
 
 ---
 
 ## ✅ Completed Features
 
-> _(This section will grow as development continues.)_
+### **Generic Table Component**
 
-- Project setup with SvelteKit, TailwindCSS, DaisyUI, SQLite, and Socket.IO
-- Core project structure established
-- Initial design direction defined
+- Server-Driven Column Visibility
+- Highlight an entire row on hover
 
 ---
 
