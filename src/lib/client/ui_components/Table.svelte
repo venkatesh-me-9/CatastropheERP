@@ -1,5 +1,14 @@
 <script>
 	let { data, tableInfo, queryInfo } = $props();
+
+	function cellAlign(type) {
+		const right = ['number'];
+		const center = ['serialNumber'];
+
+		if (right.includes(type)) return 'right';
+		else if (center.includes(type)) return 'center';
+		else return 'left';
+	}
 </script>
 
 <div class="h-full w-full overflow-x-auto">
@@ -7,7 +16,9 @@
 		<thead>
 			<tr>
 				{#each tableInfo.readCol as colName}
-					<td>{tableInfo.labelCol[colName] ?? colName}</td>
+					<td class="text-{cellAlign(tableInfo.typeCol[colName])}"
+						>{tableInfo.labelCol[colName] ?? colName}</td
+					>
 				{/each}
 			</tr>
 		</thead>
@@ -15,7 +26,7 @@
 			{#each data as row (row.id)}
 				<tr class="hover:bg-base-300">
 					{#each tableInfo.readCol as colName}
-						<td>{row[colName]}</td>
+						<td class="text-{cellAlign(tableInfo.typeCol[colName])}">{row[colName]}</td>
 					{/each}
 				</tr>
 			{/each}
