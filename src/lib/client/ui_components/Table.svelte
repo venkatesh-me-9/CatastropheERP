@@ -7,7 +7,7 @@
 		<thead>
 			<tr>
 				{#each tableInfo.readCol as colName}
-					<td>{colName}</td>
+					<td>{tableInfo.labelCol[colName] ?? colName}</td>
 				{/each}
 			</tr>
 		</thead>

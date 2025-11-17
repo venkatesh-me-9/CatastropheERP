@@ -24,6 +24,7 @@ The goal is to build the system incrementally while maintaining clarity and dire
 
 - Server-Driven Column Visibility
 - Highlight an entire row on hover
+- Custom column labels
 
 ---
 

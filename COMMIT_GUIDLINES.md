@@ -103,5 +103,3 @@ i changed something
 - Use PR titles for broader explanations if needed.
 
 ---
-
-By following these guidelines, the project stays maintainable, readable, and welcoming for future contributors (including future you).
