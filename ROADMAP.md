@@ -9,12 +9,12 @@ The goal is to build the system incrementally while maintaining clarity and dire
 
 ### **Generic Table Component (In Progress)**
 
-- Pin rows
-- Pin columns
-- Highlight a column on Ctrl + hover
+- Highlight a column on ctrl + hover
 - Support both numbered and unnumbered rows
-- Provide sorting and filtering capabilities
+- Sorting
+- Multi-level sorting
 - Include action buttons (update and delete)
+- Merge rows cells (cells in the same column and inconsequitive rows can be merged into single cell)
 
 ---
 
@@ -26,6 +26,7 @@ The goal is to build the system incrementally while maintaining clarity and dire
 - Highlight an entire row on hover
 - Custom column labels
 - Dynamic column alignment
+- Pin rows & columns
 
 ---
 
