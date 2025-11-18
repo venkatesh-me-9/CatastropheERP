@@ -61,8 +61,8 @@ If you're reading this, I hope you're doing better.
 ## 🏗 Installation (If You Dare)
 
 ```bash
-git clone https://github.com/your-username/catastrophe-erp
-cd catastrophe-erp
+git clone https://github.com/venkatesh-me-9/CatastropheERP
+cd catastropheERP
 npm install
 npm run dev
 ```

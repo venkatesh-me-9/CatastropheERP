@@ -9,12 +9,20 @@ The goal is to build the system incrementally while maintaining clarity and dire
 
 ### **Generic Table Component (In Progress)**
 
-- Highlight a column on ctrl + hover
-- Support both numbered and unnumbered rows
+- Add an optional serial/index column to the table.
 - Sorting
 - Multi-level sorting
 - Include action buttons (update and delete)
 - Merge rows cells (cells in the same column and inconsequitive rows can be merged into single cell)
+- Highlight a column on ctrl + hover
+
+### **Pagination Component (Not Yet Started)**
+
+- Items per page
+- showing x-y results
+- pagination
+
+### **Results Filtering Component (Not Yet Started)**
 
 ---
 

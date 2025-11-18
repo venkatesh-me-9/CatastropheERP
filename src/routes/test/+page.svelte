@@ -5,5 +5,10 @@
 </script>
 
 <div class="h-screen w-screen">
-	<Table data={data.data} queryInfo={data.queryInfo} tableInfo={data.tableInfo} />
+	<Table
+		data={data.data}
+		queryInfo={data.queryInfo}
+		tableInfo={data.tableInfo}
+		showSerialNumbers={true}
+	/>
 </div>
