@@ -9,7 +9,6 @@ The goal is to build the system incrementally while maintaining clarity and dire
 
 ### **Generic Table Component (In Progress)**
 
-- Add an optional serial/index column to the table.
 - Sorting
 - Multi-level sorting
 - Include action buttons (update and delete)
@@ -24,17 +23,23 @@ The goal is to build the system incrementally while maintaining clarity and dire
 
 ### **Results Filtering Component (Not Yet Started)**
 
+### **MISC function\***
+
+- create custom url encoder
+- create custom url decoder
+
 ---
 
 ## ✅ Completed Features
 
 ### **Generic Table Component**
 
-- Server-Driven Column Visibility
+- Server-Driven column visibility
 - Highlight an entire row on hover
 - Custom column labels
 - Dynamic column alignment
 - Pin rows & columns
+  = Add dynamic serial number toggle option
 
 ---
 
